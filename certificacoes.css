@@ -1,0 +1,15 @@
+div.certificacoes{
+    padding: 25px;
+    background-color: #373A3B;
+}
+div.certificacoes p#title{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: arial;
+    Font-size: 22px;
+}
+div.certificacoes p{
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 16px;
+}

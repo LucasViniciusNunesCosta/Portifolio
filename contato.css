@@ -1,0 +1,26 @@
+div.contato{
+    padding: 20px;
+    background-color: #373A3B;
+}
+div.contato p#contato{
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+div.contato ul li{
+    list-style: none;
+    display: flex;
+    padding: 8px;
+
+}
+div.contato ul li img{
+    height: 40px;
+    width: 40px;
+}
+div.contato ul li p{
+    color: #FFFFFF;
+    padding-left: 6px;
+    font-family: arial;
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+div.sobre{
+    padding: 20px;
+    padding-bottom: 180px;
+    background-color: #585D62;
+}
+div.sobre p#Psobre{
+    color: #ffffff;
+    font-family: arial;
+    font-size: 22px;
+}
+div.sobre p#objetivo{
+    color: #ffffff;
+    font-family: arial;
+    font-size: 18px;
+}
+div.sobre div.perfil{
+    padding-right: 60px;
+    padding-left: 20px;
+    float: left;
+}
+div.sobre div.perfil img.box-img{
+    border-radius: 50%;
+    width: 180px;
+    height: 160px;
+    border: 3px solid #5CC4C4;
+    padding: 6px;
+    position: center;
+}
+div.sobre div.perfil p{
+    color: #ffffff;
+    font-family: arial;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}

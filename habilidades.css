@@ -1,0 +1,26 @@
+div.habilidades{
+    padding: 20px;
+    height: 180px;
+    background-color: #373A3B;
+}
+div.habilidades p#skills{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: arial;
+    Font-size: 22px;
+}
+div.habilidades div.HBL{
+    display: flex;
+    justify-content: center;
+}
+div.habilidades div.icones img{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
+div.habilidades div.HBL div.icones p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: arial;
+    margin-bottom: 0px;
+}
