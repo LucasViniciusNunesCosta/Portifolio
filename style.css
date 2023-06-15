@@ -61,22 +61,75 @@ body {
   color: var(--azul);
   margin: 12px 0px 12px 0px;
 }
-.header__btn-container{
+.header__btn-container {
   margin-top: 10vh;
 }
-.header__btn{
+.header__btn {
   background-color: transparent;
   width: 10vw;
   height: 5vh;
-  padding: 15px;
+  padding: 0.9rem;
   color: var(--branco-primario);
-  margin-right: 15px;
+  margin-right: 0.9rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .LinkedIn {
   border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
   border-image-slice: 1;
 }
 .GitHub {
+  border-image: linear-gradient(132.33deg, #d24074 -0.67%, #6518b4 102.54%);
+  border-image-slice: 1;
+}
+.about-me {
+  padding: 5vh 10vh 5vh 10vh;
+  background-color: var(--background-gray);
+  display: flex;
+  gap: 30vw;
+}
+.about-me__container-foto {
+  width: 22.9rem;
+  height: 22.9rem;
+  border-left: 2px solid var(--azul);
+  background-color: var(--background-dark);
+}
+.about-me__container-info{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-me__text {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--branco-primario);
+}
+.about-me__localizacao {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: var(--branco-primario);
+}
+.about-me__resumo {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: var(--branco-secundario);
+  width: 30vw;
+}
+.about-me__button {
+  background-color: transparent;
+  width: 10vw;
+  height: 5vh;
+  padding: 15px;
+  color: var(--branco-primario);
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.Email {
+  border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
+  border-image-slice: 1;
+}
+.curriculo {
   border-image: linear-gradient(132.33deg, #d24074 -0.67%, #6518b4 102.54%);
   border-image-slice: 1;
 }
