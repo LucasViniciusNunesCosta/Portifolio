@@ -94,7 +94,7 @@ body {
   border-left: 2px solid var(--azul);
   background-color: var(--background-dark);
 }
-.about-me__container-info{
+.about-me__container-info {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -132,4 +132,60 @@ body {
 .curriculo {
   border-image: linear-gradient(132.33deg, #d24074 -0.67%, #6518b4 102.54%);
   border-image-slice: 1;
+}
+.projetos {
+  padding: 5vh 10vh 5vh 10vh;
+  background-color: var(--background-gray);
+}
+.projetos__card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.projetos__title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--branco-primario);
+}
+.projeto__card{
+  width: 35vw;
+  margin: 0;
+}
+.projeto__card-foto {
+  width: 530px;
+  height: 200px;
+  background-color: var(--background-dark);
+  border-left: 2px solid var(--azul);
+  width: 100%;
+}
+.projeto__card-nome {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--branco-primario);
+}
+.projeto__card-descricao {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--branco-secundario);
+  width: 80%;
+}
+.projeto__card-techs{
+  font-weight: 400;
+  font-size: .8rem;
+  color: var(--azul);
+}
+.projeto__card-btn{
+  background-color: transparent;
+  width: 10vw;
+  height: 5vh;
+  padding: 15px;
+  color: var(--branco-primario);
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
+  border-image-slice: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
