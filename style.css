@@ -82,6 +82,13 @@ body {
   border-image: linear-gradient(132.33deg, #d24074 -0.67%, #6518b4 102.54%);
   border-image-slice: 1;
 }
+.header__container-right{
+  width: 50vw;
+}
+.container-right__img{
+  width: 100%;
+  height: auto;
+}
 .about-me {
   padding: 5vh 10vh 5vh 10vh;
   background-color: var(--background-gray);
@@ -204,8 +211,8 @@ body {
   gap: 2rem;
 }
 .servicos__card {
-  width: 350px;
-  height: 240px;
+  width: 15vw;
+  height: 22vh;
   background-color: var(--background-gray);
   border-bottom: 2px solid var(--azul);
   padding: 1.8rem;
@@ -222,4 +229,13 @@ body {
   font-weight: 500;
   font-size: 1.5rem;
   color: var(--branco-secundario);
+}
+.footer{
+  padding: 5vh 10vh 5vh 10vh;
+  background-color: var(--background-gray);
+  color: var(--branco-secundario);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 1rem;
 }
