@@ -61,13 +61,14 @@ body {
   color: var(--azul);
   margin: 12px 0px 12px 0px;
 }
-.header__btn-container {
-  margin-top: 10vh;
+.header__btn-container{
+  margin-top: 2rem;
 }
 .header__btn {
   background-color: transparent;
-  height: 5vh;
-  padding: 0.9rem 4em;
+  height: 5vh; 
+  padding: 0.9rem 2rem;
+  width: 50%;
   color: var(--branco-primario);
   margin-right: 0.9rem;
   font-weight: 600;
