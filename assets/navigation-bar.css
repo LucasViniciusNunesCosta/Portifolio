@@ -1,0 +1,30 @@
+.navigation {
+    background-color: var(--background-dark);
+    padding-top: 2.5rem;
+    padding-bottom: 1.8rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #151515;
+  }
+  .navigation__title {
+    color: var(--azul);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .navigation__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+  }
+  .navigation__list-item {
+    color: var(--branco-secundario);
+  }
+  .navigation__list-item > a {
+    text-decoration: none;
+    color: var(--branco-secundario);
+    font-weight: 500;
+    font-size: 1.1rem;
+  }

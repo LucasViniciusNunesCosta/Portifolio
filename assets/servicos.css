@@ -1,0 +1,37 @@
+.servicos {
+    background-color: var(--background-dark);
+    padding: 5vh 10vh 5vh 10vh;
+  }
+  .servicos__title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--branco-primario);
+  }
+  .servicos__card-container {
+    display: flex;
+    gap: 2rem;
+  }
+  .servicos__card {
+    width: 15vw;
+    height: 22vh;
+    background-color: var(--background-gray);
+    border-bottom: 2px solid var(--azul);
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+  }
+  .servicos__card:hover{
+    background-color: rgb(34, 34, 34);
+  }
+  .servicos__card-img{
+    width: 25%;
+    height: auto;
+    max-width: 87px;
+  }
+  .servicos__card-descricao {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--branco-secundario);
+  }

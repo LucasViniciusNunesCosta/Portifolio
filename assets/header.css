@@ -1,0 +1,52 @@
+.header {
+    box-sizing: border-box;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: var(--background-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--branco-primario);
+    margin: 0;
+  }
+  .header__text-name {
+    font-weight: 600;
+    font-size: 4rem;
+    color: var(--azul);
+    margin: 12px 0px 12px 0px;
+  }
+  .header__btn-container{
+    margin-top: 2rem;
+  }
+  .header__btn {
+    background-color: transparent;
+    height: 5vh; 
+    padding: 0.9rem 2rem;
+    width: 50%;
+    color: var(--branco-primario);
+    margin-right: 0.9rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    border: solid 1px;
+  }
+  .LinkedIn {
+    border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
+    border-image-slice: 1;
+  }
+  .GitHub {
+    border-image: linear-gradient(132.33deg, #d24074 -0.67%, #6518b4 102.54%);
+    border-image-slice: 1;
+  }
+  .header__container-right{
+    width: 50vw;
+  }
+  .container-right__img{
+    width: 100%;
+    height: auto;
+  }
