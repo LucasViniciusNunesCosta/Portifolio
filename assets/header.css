@@ -7,9 +7,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: 1;
+  }
+  .header__container-left{
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .header__text {
-    font-weight: 600;
     font-size: 1.5rem;
     color: var(--branco-primario);
     margin: 0;
@@ -21,11 +28,13 @@
     margin: 12px 0px 12px 0px;
   }
   .header__btn-container{
-    margin-top: 2rem;
+    box-sizing: border-box;
+    display: flex;
   }
   .header__btn {
     background-color: transparent;
-    height: 5vh; 
+    height: 5vh;
+    box-sizing: border-box;
     padding: 0.9rem 2rem;
     width: 50%;
     color: var(--branco-primario);
@@ -34,6 +43,10 @@
     font-size: 1rem;
     text-decoration: none;
     border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
   .LinkedIn {
     border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);

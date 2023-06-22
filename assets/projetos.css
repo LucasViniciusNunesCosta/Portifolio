@@ -43,8 +43,12 @@
   }
   .projeto__card-btn {
     width: 18vw;
-    background-color: transparent;
     padding: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
     color: var(--branco-primario);
     font-weight: 600;
     font-size: 1rem;
@@ -54,7 +58,5 @@
     border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
     border-image-slice: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 1rem;
   }
