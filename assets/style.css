@@ -4,6 +4,7 @@
   --branco-primario: rgba(255, 255, 255, 1);
   --background-dark: rgba(18, 18, 18, 1);
   --background-gray: rgb(21, 21, 21);
+  --hover: rgb(34, 34, 34);
 }
 body {
   margin: 0;

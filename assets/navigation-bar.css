@@ -28,3 +28,6 @@
     font-weight: 500;
     font-size: 1.1rem;
   }
+  .navigation__list-item > a:hover{
+    color: var(--branco-primario);
+  }

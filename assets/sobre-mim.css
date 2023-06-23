@@ -53,6 +53,9 @@
     align-items: center;
     gap: 1rem;
   }
+  .about-me__button:hover{
+    background-color: var(--hover);
+  }
   .Email {
     border-image: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
     border-image-slice: 1;

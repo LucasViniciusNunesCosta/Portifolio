@@ -23,7 +23,7 @@
     border-radius: 10px;
   }
   .servicos__card:hover{
-    background-color: rgb(34, 34, 34);
+    background-color: var(--hover);
   }
   .servicos__card-img{
     width: 25%;
