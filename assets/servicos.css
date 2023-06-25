@@ -35,3 +35,16 @@
     font-size: 1.5rem;
     color: var(--branco-secundario);
   }
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    .servicos{
+      padding: 5vh 2vh;
+    }
+    .servicos__card-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .servicos__card{
+      width: 60vw;
+      align-items: center;
+    }
+  }

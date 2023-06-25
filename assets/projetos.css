@@ -63,3 +63,18 @@
   .projeto__card-btn:hover{
     background-color: var(--hover);
   }
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    .projetos{
+      padding: 5vh 2vh;
+    }
+    .projetos__card-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .projeto__card{
+      width: 80vw;
+    }
+    .projeto__card-btn{
+      width: auto;
+    }
+  }
