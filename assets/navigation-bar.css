@@ -31,3 +31,13 @@
   .navigation__list-item > a:hover{
     color: var(--branco-primario);
   }
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    .navigation{
+      padding: 5vh 2vh;
+      flex-direction: column;
+    }
+    .navigation__list{
+      width: auto;
+      align-items: center;
+    }
+  }
