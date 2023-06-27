@@ -89,3 +89,25 @@
       padding: 0.9rem 2rem;
     }
   }
+  @media screen and (min-width: 481px) and (max-width: 768px){
+    .about-me{
+      padding: 5vh 2vh;
+      justify-content: start;
+      gap: 2rem;
+    }
+    .about-me__container-foto{
+      height: 30vh;
+      width: 30vw;
+    }
+    .about-me__container-info{
+      width: 60vw;
+      gap: .4rem;
+    }
+    .about-me__resumo{
+      width: 100%;
+      text-align: justify;
+    }
+    .about-me__button{
+      padding: 0.9rem 2rem;
+    }
+  }
