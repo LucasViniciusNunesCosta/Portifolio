@@ -51,6 +51,8 @@
   .navigation {
     padding: 5vh 2vh;
     flex-direction: column;
+    align-items: end;
+    text-align: end;
   }
   .navigation__options {
     display: flex;
@@ -61,16 +63,12 @@
   .menu-icon {
     display: block;
   }
-  .menu-toggle:checked ~ .navigation__list {
-    display: block
-  }
   .navigation__list {
     display: none;
   }
   .menu-icon::before {
     transform: rotate(45deg) translate(5px, 5px);
   }
-
   .menu-icon::after {
     transform: rotate(-45deg) translate(5px, -5px);
   }

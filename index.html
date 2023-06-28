@@ -153,5 +153,17 @@
       <span class="copy">@2023 - Lucas Costa</span>
       <span class="powered-by">Powered by Lucas Costa</span>
     </footer>
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const navigationList = document.querySelector(".navigation__list");
+    
+      menuToggle.addEventListener("change", function () {
+        if (this.checked) {
+          navigationList.style.display = "block";
+        } else {
+          navigationList.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
