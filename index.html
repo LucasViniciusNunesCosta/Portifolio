@@ -92,36 +92,31 @@
       <div class="projetos__card-container">
         <div class="projeto__card">
           <div class="projeto__card-foto"></div>
-          <p class="projeto__card-nome">Nome do projeto</p>
+          <p class="projeto__card-nome">FoodJP</p>
           <p class="projeto__card-descricao">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            blandit interdum odio eu varius.
+            Desafio Codelândia #27 - Landing-page FoodJP para restaurante de comida japonesa
           </p>
-          <p class="projeto__card-techs">Tecnologias usadas no projeto</p>
+          <p class="projeto__card-techs">HTML e CSS</p>
           <a class="projeto__card-btn"
             ><img src="assets/img/icons/link.png" alt="" />Visualizar</a
           >
         </div>
         <div class="projeto__card">
           <div class="projeto__card-foto"></div>
-          <p class="projeto__card-nome">Nome do projeto</p>
-          <p class="projeto__card-descricao">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            blandit interdum odio eu varius.
-          </p>
-          <p class="projeto__card-techs">Tecnologias usadas no projeto</p>
-          <a class="projeto__card-btn"
+          <p class="projeto__card-nome">Naped</p>
+          <p class="projeto__card-descricao"> Desafio codelândia #10 - Blog de noticias Geek Naped</p>
+          <p class="projeto__card-techs">Angular e TypeScript</p>
+          <a href="https://github.com/LucasViniciusNunesCosta/NAPED" target="_blank" class="projeto__card-btn"
             ><img src="assets/img/icons/link.png" alt="" />Visualizar</a
           >
         </div>
         <div class="projeto__card">
           <div class="projeto__card-foto"></div>
-          <p class="projeto__card-nome">Nome do projeto</p>
+          <p class="projeto__card-nome">RocketNFTs</p>
           <p class="projeto__card-descricao">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            blandit interdum odio eu varius.
+            Landing page para empresa ficticia de criptomoedas
           </p>
-          <p class="projeto__card-techs">Tecnologias usadas no projeto</p>
+          <p class="projeto__card-techs">Angular e TypeScript</p>
           <a class="projeto__card-btn"
             ><img src="assets/img/icons/link.png" alt="" />Visualizar</a
           >
@@ -130,28 +125,40 @@
     </section>
     <section class="servicos" id="servicos">
       <h2 class="servicos__title">Serviços</h2>
-      <div class="servicos__card-container">
-        <div class="servicos__card">
-          <img
-            class="servicos__card-img"
-            src="assets/img/icons/code.svg"
-            alt=""
-          />
-          <p class="servicos__card-descricao">Criação de sites</p>
+        <div class="servicos__card-container">
+          <div class="servicos__card">
+            <img
+              class="servicos__card-img"
+              src="assets/img/icons/code.svg"
+              alt=""
+            />
+            <p class="servicos__card-descricao">Criação de sites</p>
+          </div>
+          <div class="servicos__card">
+            <img
+              class="servicos__card-img"
+              src="assets/img/icons/smartphone.svg"
+              alt=""
+            />
+            <p class="servicos__card-descricao">Sites responsivos</p>
+          </div>
         </div>
-        <div class="servicos__card">
-          <img
-            class="servicos__card-img"
-            src="assets/img/icons/smartphone.svg"
-            alt=""
-          />
-          <p class="servicos__card-descricao">Sites responsivos</p>
-        </div>
-      </div>
     </section>
     <footer class="footer">
       <span class="copy">@2023 - Lucas Costa</span>
       <span class="powered-by">Powered by Lucas Costa</span>
     </footer>
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const navigationList = document.querySelector(".navigation__list");
+    
+      menuToggle.addEventListener("change", function () {
+        if (this.checked) {
+          navigationList.style.display = "block";
+        } else {
+          navigationList.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>

@@ -14,7 +14,7 @@
     color: var(--branco-primario);
   }
   .projeto__card {
-    width: 35vw;
+    width: 25vw;
     margin: 0;
   }
   .projeto__card-foto {
@@ -24,6 +24,15 @@
     border-left: 2px solid var(--azul);
     width: 100%;
     border-radius: 0px 10px 10px 0px;
+  }
+  .projeto__card:nth-child(1) > .projeto__card-foto{
+    background-image: url(img/projetos/FDJP.png);
+  }
+  .projeto__card:nth-child(2) > .projeto__card-foto{
+    background-image: url(img/projetos/Naped.png);
+  }
+  .projeto__card:nth-child(3) > .projeto__card-foto{
+    background-image: url(img/projetos/rktnft.png);
   }
   .projeto__card-nome {
     font-weight: 500;
