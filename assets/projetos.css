@@ -87,7 +87,15 @@
       width: auto;
     }
   }
-  @media screen and (min-width: 481px) and (max-width: 768px){
+  @media screen and (min-width: 481px) and (max-width: 835px){
+    .projetos{
+      padding: 5vh 2vh;
+    }
+    .projeto__card{
+      width: 40vw;
+    }
+  }
+  @media screen and (min-width: 836px) and (max-width: 885px){
     .projetos{
       padding: 5vh 2vh;
     }
