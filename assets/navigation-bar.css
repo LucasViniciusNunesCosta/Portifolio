@@ -73,7 +73,16 @@
     transform: rotate(-45deg) translate(5px, -5px);
   }
 }
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 835px){
+  .navigation {
+    padding: 5vh 2vh;
+  }
+  .navigation__list{
+    width: auto;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 836px) and (max-width: 885px){
   .navigation {
     padding: 5vh 2vh;
   }

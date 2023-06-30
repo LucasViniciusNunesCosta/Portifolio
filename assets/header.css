@@ -80,7 +80,13 @@
       display: none;
     }
   }
-  @media screen and (min-width: 481px) and (max-width: 768px){
+  @media screen and (min-width: 481px) and (max-width: 835px){
+    .header{
+      padding-left: 5vw;
+      padding-right: 0;
+    }
+  }
+  @media screen and (min-width: 836px) and (max-width: 885px){
     .header{
       padding-left: 5vw;
       padding-right: 0;
